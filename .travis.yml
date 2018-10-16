@@ -16,15 +16,12 @@ before_install:
 #  - pip install -r requirements.txt
 # command to run tests
 script:
-  - echo "hello world"
+  - echo "\e[31m[INFO] Starting appium server\e[0m"
   - appium &
+  - echo "\e[31m[INFO] Appium server started\e[0m
   - sleep 7s
-  - cat myprogram.out 
-  - ls -l
-  - cat myprogram.out
   - cd /Users/travis/build/ArsenUa/TestMobileProject
-  - cat myprogram.out
   - sleep 7s
-  - cat myprogram.out
+  - echo "\e[31m[INFO] Appium server started\e[0m"
   - python3 simulatorTest.py
-  - cat myprogram.out
+  - echo "\e[31m[INFO] Appium server started\e[0m"
