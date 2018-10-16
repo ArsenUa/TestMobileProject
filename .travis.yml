@@ -18,7 +18,7 @@ before_install:
 script:
   - echo "\e[31m[INFO] Starting appium server\e[0m"
   - appium &
-  - echo "\e[31m[INFO] Appium server started\e[0m
+  - echo "\e[31m[INFO] Appium server started\e[0m"
   - sleep 7s
   - cd /Users/travis/build/ArsenUa/TestMobileProject
   - sleep 7s
